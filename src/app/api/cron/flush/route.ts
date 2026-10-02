@@ -37,13 +37,9 @@ export async function GET(request: Request) {
       }
     }
 
-    const result = (await redis.xreadgroup(
-      GROUP_NAME,
-      CONSUMER_NAME,
-      STREAM_KEY,
-      '>',
-      { count: 5000 }
-    )) as any;
+    const result = (await redis.xreadgroup(GROUP_NAME, CONSUMER_NAME, STREAM_KEY, '>', {
+      count: 5000,
+    })) as any;
 
     if (!result || result.length === 0) {
       await redis.del(LOCK_KEY);

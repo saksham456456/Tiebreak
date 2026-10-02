@@ -10,8 +10,10 @@ const adminSupabase = createAdminClient(supabaseUrl, supabaseKey);
 
 async function requireAdmin() {
   const supabase = await createClient();
-  const { data: { user } } = await supabase.auth.getUser();
-  
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
   // Read role from app_metadata which is server-controlled (cannot be modified by user)
   if (!user || user.app_metadata?.role !== 'admin') {
     throw new Error('Unauthorized');
@@ -21,7 +23,9 @@ async function requireAdmin() {
 
 export default async function AdminPage() {
   const supabase = await createClient();
-  const { data: { user } } = await supabase.auth.getUser();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
 
   if (!user || user.app_metadata?.role !== 'admin') {
     redirect('/');
@@ -37,7 +41,7 @@ export default async function AdminPage() {
     'use server';
     const adminUser = await requireAdmin();
     const id = formData.get('id') as string;
-    
+
     if (!z.string().uuid().safeParse(id).success) throw new Error('Invalid UUID');
 
     await adminSupabase.from('items').update({ status: 'active' }).eq('id', id);
@@ -54,7 +58,7 @@ export default async function AdminPage() {
     'use server';
     const adminUser = await requireAdmin();
     const id = formData.get('id') as string;
-    
+
     if (!z.string().uuid().safeParse(id).success) throw new Error('Invalid UUID');
 
     await adminSupabase.from('items').delete().eq('id', id);
@@ -68,39 +72,48 @@ export default async function AdminPage() {
   }
 
   return (
-    <main className="min-h-screen bg-background p-4 md:p-8 pt-12">
-      <div className="max-w-4xl mx-auto">
+    <main className="min-h-screen bg-background p-4 pt-12 md:p-8">
+      <div className="mx-auto max-w-4xl">
         <header className="mb-8">
-          <h1 className="text-4xl font-heading font-black">Moderation Queue</h1>
-          <p className="text-muted-foreground mt-2">Approve or reject user submissions.</p>
+          <h1 className="font-heading text-4xl font-black">Moderation Queue</h1>
+          <p className="mt-2 text-muted-foreground">Approve or reject user submissions.</p>
         </header>
 
         <div className="space-y-4">
           {!pendingItems || pendingItems.length === 0 ? (
-            <div className="bg-card border rounded-2xl p-8 text-center text-muted-foreground">
+            <div className="rounded-2xl border bg-card p-8 text-center text-muted-foreground">
               Queue is empty. Great job!
             </div>
           ) : (
             pendingItems.map((item: any) => (
-              <div key={item.id} className="bg-card border rounded-2xl p-6 flex items-center justify-between">
+              <div
+                key={item.id}
+                className="flex items-center justify-between rounded-2xl border bg-card p-6"
+              >
                 <div>
-                  <div className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-1">
+                  <div className="mb-1 text-xs font-bold uppercase tracking-wider text-muted-foreground">
                     {item.categories?.name}
                   </div>
                   <h3 className="text-xl font-bold">{item.name}</h3>
-                  <p className="text-muted-foreground mt-1">{item.descriptor}</p>
+                  <p className="mt-1 text-muted-foreground">{item.descriptor}</p>
                 </div>
-                
+
                 <div className="flex gap-2">
                   <form action={rejectItem}>
                     <input type="hidden" name="id" value={item.id} />
-                    <button type="submit" className="bg-destructive/10 text-destructive px-4 py-2 rounded-lg font-bold hover:bg-destructive/20 transition-colors">
+                    <button
+                      type="submit"
+                      className="rounded-lg bg-destructive/10 px-4 py-2 font-bold text-destructive transition-colors hover:bg-destructive/20"
+                    >
                       Reject
                     </button>
                   </form>
                   <form action={approveItem}>
                     <input type="hidden" name="id" value={item.id} />
-                    <button type="submit" className="bg-primary text-primary-foreground px-4 py-2 rounded-lg font-bold hover:bg-primary/90 transition-colors">
+                    <button
+                      type="submit"
+                      className="rounded-lg bg-primary px-4 py-2 font-bold text-primary-foreground transition-colors hover:bg-primary/90"
+                    >
                       Approve
                     </button>
                   </form>
