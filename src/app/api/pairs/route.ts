@@ -5,6 +5,7 @@ import { limits } from '@/lib/abuse/limits';
 import { redis } from '@/lib/redis/client';
 import { REDIS_KEYS } from '@/lib/redis/keys';
 import { createClient } from '@/lib/supabase/server';
+import { signPairToken } from '@/lib/auth/pair-token';
 
 const PairQuerySchema = z.object({
   category: z.string(),
@@ -82,11 +83,15 @@ export async function GET(request: NextRequest) {
       const pairId = REDIS_KEYS.pairStats(a.id, b.id);
 
       if (!seenSet.has(pairId)) {
+        const expiry = Date.now() + 10 * 60 * 1000; // 10 minutes
+        const pairToken = signPairToken(a.id, b.id, categoryData.id, anonId, expiry);
+
         pairs.push({
           pairId,
           a,
           b,
           hot: false,
+          pairToken,
         });
         if (redis) {
           await redis.sadd(seenSetKey, pairId);

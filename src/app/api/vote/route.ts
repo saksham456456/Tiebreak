@@ -2,9 +2,10 @@ import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import { getAnonId, setAnonId, hashIp } from '@/lib/auth/anon';
 import { limits } from '@/lib/abuse/limits';
-import { redis } from '@/lib/redis/client';
+import { isRedisConfigured, redis } from '@/lib/redis/client';
 import { REDIS_KEYS } from '@/lib/redis/keys';
 import { calculateVoteWeight } from '@/lib/ranking/weights';
+import { verifyPairToken } from '@/lib/auth/pair-token';
 
 const VoteSchema = z.object({
   itemA: z.string().uuid(),
@@ -17,42 +18,98 @@ const VoteSchema = z.object({
   source: z.enum(['arena', 'daily', 'challenge', 'embed', 'api']).default('arena'),
   turnstileToken: z.string().optional(),
   clientVoteId: z.string(),
-  categoryId: z.string().uuid().optional(),
+  pairToken: z.string(),
 });
+
+async function verifyTurnstile(token: string, ip: string) {
+  const secret = process.env.TURNSTILE_SECRET_KEY;
+  if (!secret) return process.env.NODE_ENV !== 'production';
+  const res = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
+    method: 'POST',
+    body: `secret=${encodeURIComponent(secret)}&response=${encodeURIComponent(token)}&remoteip=${encodeURIComponent(ip)}`,
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+  });
+  const data = await res.json();
+  return data.success;
+}
 
 export async function POST(request: NextRequest) {
   try {
+    if (!isRedisConfigured() && process.env.NODE_ENV === 'production') {
+      return NextResponse.json({ ok: false, error: 'Service Unavailable' }, { status: 503 });
+    }
+
     const body = await request.json();
     const parsed = VoteSchema.safeParse(body);
 
     if (!parsed.success) {
-      return NextResponse.json({ ok: false, error: parsed.error }, { status: 400 });
+      return NextResponse.json({ ok: false, error: 'Invalid parameters' }, { status: 400 });
     }
 
     const data = parsed.data;
-    const ip = request.headers.get('x-forwarded-for') || '127.0.0.1';
+    
+    if (data.itemA === data.itemB) {
+      return NextResponse.json({ ok: false, error: 'Invalid pair' }, { status: 400 });
+    }
+
+    const ip = (request.headers.get('x-forwarded-for') || '127.0.0.1').split(',')[0].trim();
     const ipHash = hashIp(ip);
 
+    // 1. Verify identity
     let anonId = await getAnonId();
     if (!anonId) {
       anonId = crypto.randomUUID();
       await setAnonId(anonId);
     }
 
-    if (redis) {
-      const idemKey = REDIS_KEYS.idempotency(data.clientVoteId);
-      const isNew = await redis.setnx(idemKey, '1');
-      if (!isNew) {
-        return NextResponse.json({ ok: false, error: 'Duplicate vote' }, { status: 409 });
-      }
-      await redis.expire(idemKey, 600);
-    }
-
-    if (redis) {
+    // 2. Rate limit
+    if (isRedisConfigured()) {
       const rlAnon = await limits.voteAnon.limit(anonId);
       const rlIp = await limits.voteIp.limit(ipHash);
       if (!rlAnon.success || !rlIp.success) {
         return NextResponse.json({ ok: false, error: 'Rate limited' }, { status: 429 });
+      }
+    }
+
+    // 3. Token verification
+    const { valid: isTokenValid, categoryId: tokenCategoryId } = verifyPairToken(
+      data.pairToken,
+      data.itemA,
+      data.itemB,
+      anonId
+    );
+    if (!isTokenValid || !tokenCategoryId) {
+      return NextResponse.json({ ok: false, error: 'Invalid or expired pair token' }, { status: 403 });
+    }
+    const categoryId = tokenCategoryId;
+
+    // Turnstile check
+    if (isRedisConfigured()) {
+      const votedKey = `session:${anonId}:voted`;
+      const hasVoted = await redis.get(votedKey);
+      
+      // We will define high risk simply if they haven't voted yet (first vote).
+      if (!hasVoted) {
+        if (!data.turnstileToken) {
+          if (process.env.NODE_ENV === 'production') {
+            return NextResponse.json({ ok: false, error: 'Missing captcha' }, { status: 403 });
+          }
+        } else {
+          const isValid = await verifyTurnstile(data.turnstileToken, ip);
+          if (!isValid && process.env.NODE_ENV === 'production') {
+            return NextResponse.json({ ok: false, error: 'Invalid captcha' }, { status: 403 });
+          }
+        }
+        await redis.set(votedKey, '1', { ex: 60 * 60 * 24 });
+      }
+    }
+
+    // 4. Idempotency (atomic)
+    if (isRedisConfigured()) {
+      const idemKey = REDIS_KEYS.idempotency(data.clientVoteId);
+      const isNew = await redis.set(idemKey, '1', { nx: true, ex: 600 });
+      if (!isNew) {
+        return NextResponse.json({ ok: false, error: 'Duplicate vote' }, { status: 409 });
       }
     }
 
@@ -75,7 +132,7 @@ export async function POST(request: NextRequest) {
         item_b: data.itemB,
         winner: data.outcome === 'a' ? data.itemA : data.outcome === 'b' ? data.itemB : null,
         outcome: data.outcome,
-        category_id: data.categoryId || '00000000-0000-0000-0000-000000000000',
+        category_id: categoryId,
         anon_id: anonId,
         weight: weight,
         decision_ms: data.decisionMs,
@@ -108,9 +165,6 @@ export async function POST(request: NextRequest) {
 
       aWins = data.itemA === lo ? loCount : hiCount;
       bWins = data.itemB === lo ? loCount : hiCount;
-
-      await redis.hincrby(REDIS_KEYS.streak(anonId), 'current', 1);
-      await redis.hincrby(REDIS_KEYS.xp(anonId), 'total', 1);
     }
 
     const total = aWins + bWins;
@@ -124,9 +178,6 @@ export async function POST(request: NextRequest) {
         aWins,
         bWins,
         total,
-        upset: false,
-        streak: 1,
-        xpGained: 1,
       },
     });
   } catch (err) {

@@ -17,6 +17,7 @@ interface Pair {
   a: Item;
   b: Item;
   hot: boolean;
+  pairToken: string;
 }
 
 export function ArenaClient({ category }: { category: string }) {
@@ -68,6 +69,7 @@ export function ArenaClient({ category }: { category: string }) {
           outcome: isA ? 'a' : 'b',
           decisionMs: 1500,
           clientVoteId,
+          pairToken: currentPair.pairToken,
         }),
       });
       const data = await res.json();
