@@ -50,7 +50,7 @@ function runSimulation(seed: number) {
 
   for (let i = 0; i < NUM_VOTES; i++) {
     // Pick A using weighted RD
-    let itemA = pickWeightedByRD(items) as SimItem;
+    const itemA = pickWeightedByRD(items) as SimItem;
     if (!itemA) continue;
     
     // Pick B within rating tolerance
@@ -65,7 +65,7 @@ function runSimulation(seed: number) {
     }
     
     // Pick random from candidates
-    let itemB = candidates[Math.floor(rng.next() * candidates.length)] as SimItem;
+    const itemB = candidates[Math.floor(rng.next() * candidates.length)] as SimItem;
 
     // Win probability based on true strength
     const probA = 1 / (1 + Math.pow(10, (itemB.trueStrength - itemA.trueStrength) / 400));

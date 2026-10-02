@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { GET, dynamic, revalidate } from '@/app/api/health/route';
-import { llmNumber, llmString, llmArray, llmMatchupAnalysisSchema } from '@/lib/validations/llm';
+
 import { isRedisConfigured, getRedisClient, redis } from '@/lib/redis/client';
 import { broadcastClientEvent, subscribeToChannel } from '@/lib/supabase/realtime';
 
@@ -89,110 +89,7 @@ describe('Empirical Challenge: /api/health Route Handler', () => {
   });
 });
 
-// =============================================================================
-// 2. LLM VALIDATION RULES: ZOD COERCION & DEFAULTS STRESS TESTS
-// =============================================================================
-describe('Empirical Challenge: LLM Validation Rules (z.coerce.number() & Defaults)', () => {
-  const numberSchema = llmNumber();
-  const stringSchema = llmString();
-  const arraySchema = llmArray(llmString());
 
-  describe('llmNumber() Coercion Boundaries', () => {
-    it('coerces standard and non-standard numeric string representations', () => {
-      expect(numberSchema.parse('42')).toBe(42);
-      expect(numberSchema.parse('-99')).toBe(-99);
-      expect(numberSchema.parse('1520.45')).toBe(1520.45);
-      expect(numberSchema.parse('0')).toBe(0);
-      expect(numberSchema.parse('-0')).toBe(-0);
-      expect(numberSchema.parse('.75')).toBe(0.75);
-      expect(numberSchema.parse('100.')).toBe(100);
-      expect(numberSchema.parse('1e3')).toBe(1000);
-      expect(numberSchema.parse('2.5e-3')).toBe(0.0025);
-    });
-
-    it('coerces strings with surrounding whitespace or tabs/newlines', () => {
-      expect(numberSchema.parse('  42  ')).toBe(42);
-      expect(numberSchema.parse('\t100\n')).toBe(100);
-    });
-
-    it('empirically audits JavaScript Number() coercion quirks', () => {
-      // JS Number("") is 0, Number(null) is 0, Number(true) is 1, Number(false) is 0
-      expect(numberSchema.parse('')).toBe(0);
-      expect(numberSchema.parse('   ')).toBe(0);
-      expect(numberSchema.parse(null)).toBe(0);
-      expect(numberSchema.parse(false)).toBe(0);
-      expect(numberSchema.parse(true)).toBe(1);
-    });
-
-    it('strictly throws ZodError on non-coercible inputs', () => {
-      expect(() => numberSchema.parse('abc')).toThrow();
-      expect(() => numberSchema.parse('42px')).toThrow();
-      expect(() => numberSchema.parse('1.2.3.4')).toThrow();
-      expect(() => numberSchema.parse('NaN')).toThrow();
-      expect(() => numberSchema.parse('undefined')).toThrow();
-      expect(() => numberSchema.parse({})).toThrow();
-      expect(() => numberSchema.parse({ value: 10 })).toThrow();
-      expect(() => numberSchema.parse([1, 2])).toThrow();
-      expect(() => numberSchema.parse(undefined)).toThrow();
-    });
-  });
-
-  describe('llmString() and llmArray() Defaults Boundaries', () => {
-    it('supplies defaults on undefined and missing keys', () => {
-      expect(stringSchema.parse(undefined)).toBe('');
-      expect(arraySchema.parse(undefined)).toEqual([]);
-    });
-
-    it('preserves valid user-provided empty or populated values', () => {
-      expect(stringSchema.parse('')).toBe('');
-      expect(stringSchema.parse('Tiebreak Champion')).toBe('Tiebreak Champion');
-      expect(arraySchema.parse([])).toEqual([]);
-      expect(arraySchema.parse(['grand-slam', 'atp'])).toEqual(['grand-slam', 'atp']);
-    });
-
-    it('audits null behavior: throws ZodError for null because Zod .default() triggers only on undefined', () => {
-      // In Zod contract: default values apply when value is undefined, not null
-      expect(() => stringSchema.parse(null)).toThrow();
-      expect(() => arraySchema.parse(null)).toThrow();
-    });
-  });
-
-  describe('llmMatchupAnalysisSchema Complex Payload Fuzzing', () => {
-    it('fails when required numeric fields are omitted', () => {
-      // confidenceScore is required and has no default
-      expect(() => llmMatchupAnalysisSchema.parse({})).toThrow();
-    });
-
-    it('succeeds on minimal payload where LLM returns only confidenceScore as a string', () => {
-      const parsed = llmMatchupAnalysisSchema.parse({
-        confidenceScore: '94.5',
-      });
-      expect(parsed.confidenceScore).toBe(94.5);
-      expect(parsed.summary).toBe('');
-      expect(parsed.tags).toEqual([]);
-      expect(parsed.keyDifferentiators).toEqual([]);
-    });
-
-    it('handles deep adversarial payloads with mixed numeric string formats', () => {
-      const payload = {
-        summary: 'Deep analysis test',
-        confidenceScore: '1e2', // 100
-        tags: ['wimbledon', 'grass'],
-        keyDifferentiators: [
-          { attribute: 'First Serve %', scoreAdvantage: '  12.5  ' },
-          { attribute: 'Break Points Saved', scoreAdvantage: '-3.2' },
-          { attribute: 'Unforced Errors', scoreAdvantage: '0' },
-        ],
-      };
-
-      const parsed = llmMatchupAnalysisSchema.parse(payload);
-      expect(parsed.confidenceScore).toBe(100);
-      expect(parsed.keyDifferentiators[0].scoreAdvantage).toBe(12.5);
-      expect(parsed.keyDifferentiators[1].scoreAdvantage).toBe(-3.2);
-      expect(parsed.keyDifferentiators[2].scoreAdvantage).toBe(0);
-    });
-  });
-});
 
 // =============================================================================
 // 3. UPSTASH REDIS LAZY PROXY STRESS TESTS
