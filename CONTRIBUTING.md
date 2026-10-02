@@ -1,23 +1,18 @@
 # Contributing to Tiebreak
 
-Thank you for your interest in contributing! 
+Thank you for your interest in contributing to Tiebreak!
 
-## Branching Model
-- `main`: Stable production branch.
-- `feat/*`: For all new features.
-- `fix/*`: For bug fixes.
+## Ground Rules
+- **All Rights Reserved**: Tiebreak's source code is publicly visible for educational purposes, but it is proprietary. You may contribute to this repository, but you may not clone, redistribute, or use this code for your own commercial or public projects. By submitting a Pull Request, you agree to transfer the copyright of your changes to the project owner.
 
-## Commit Guidelines
-We enforce Conventional Commits. Examples:
-- `feat: add new leaderboard sorting`
-- `fix: resolve hydration error on mobile cards`
-- `docs: update API endpoints in readme`
+## Development Setup
+1. Clone the repo and run `pnpm install`.
+2. Copy `.env.example` to `.env.local` and add your Supabase/Upstash keys.
+3. Run the migrations in `supabase/migrations/`.
+4. Run `pnpm dev` to start the local server.
 
-## Development Workflow
-1. Branch off `main`.
-2. Write your feature or fix.
-3. Ensure you run `pnpm format` and `pnpm lint` before pushing.
-4. Open a Pull Request and tag a maintainer.
-
-## Submitting New Contenders
-If you just want to add a new framework, language, or item to the database, you don't need to submit a PR! Simply log into the live app and use the `/submit` route to drop it into the moderation queue.
+## Workflow
+1. Create a feature branch (`feat/your-feature` or `fix/your-fix`).
+2. Commit using Conventional Commits.
+3. Run `pnpm format` and `pnpm lint` before pushing.
+4. Open a PR against the `main` branch.
