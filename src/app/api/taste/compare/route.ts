@@ -7,8 +7,6 @@ const CompareSchema = z.object({
   userKey: z.string(), // the signed in user
 });
 
-const supabase = getServiceClient();
-
 function computeCosineSimilarity(
   vecA: Record<string, number>,
   vecB: Record<string, number>
@@ -34,6 +32,7 @@ function computeCosineSimilarity(
 export async function POST(request: NextRequest) {
   const start = performance.now();
   try {
+    const supabase = getServiceClient();
     const body = await request.json();
     const parsed = CompareSchema.safeParse(body);
 

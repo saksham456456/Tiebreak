@@ -6,8 +6,6 @@ import { REDIS_KEYS } from '@/lib/redis/keys';
 import { getServiceClient } from '@/lib/supabase/admin';
 import { calculateEloUpdate } from '@/lib/ranking/elo';
 
-const supabase = getServiceClient();
-
 const EventSchema = z.object({
   client_vote_id: z.string(),
   item_a: z.string().uuid(),
@@ -31,6 +29,7 @@ function timingSafeCompare(a: string, b: string) {
 }
 
 export async function GET(request: Request) {
+  const supabase = getServiceClient();
   const authHeader = request.headers.get('authorization');
   const expectedAuth = `Bearer ${process.env.CRON_SECRET || ''}`;
   

@@ -10,16 +10,23 @@ const SubmitSchema = z.object({
   categoryId: z.string().uuid(),
 });
 
-const supabase = getServiceClient();
+function cleanText(text: string) {
+  return text
+    .normalize('NFKC')
+    .replace(/<[^>]*>/g, '') // strip HTML
+    .replace(/https?:\/\/[^\s]+/g, '') // strip URLs
+    .trim();
+}
 
 export async function POST(request: NextRequest) {
   try {
+    const supabase = getServiceClient();
     const anonId = await getAnonId();
     if (!anonId) {
       return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 });
     }
 
-    const rlRes = await limits.voteAnon.limit(anonId); // Reuse anon limits or create specific submit limits
+    const rlRes = await limits.submissions.limit(anonId);
     if (!rlRes.success) {
       return NextResponse.json({ ok: false, error: 'Rate limited' }, { status: 429 });
     }
@@ -30,34 +37,55 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ ok: false, error: 'Invalid parameters' }, { status: 400 });
     }
 
-    const { name, descriptor, categoryId } = parsed.data;
+    const name = cleanText(parsed.data.name);
+    const descriptor = cleanText(parsed.data.descriptor);
+    const categoryId = parsed.data.categoryId;
+
+    if (!name || !descriptor) {
+      return NextResponse.json({ ok: false, error: 'Empty text after cleaning' }, { status: 400 });
+    }
+
+    // Verify category exists
+    const { data: catData, error: catError } = await supabase.from('categories').select('id').eq('id', categoryId).single();
+    if (catError || !catData) {
+      return NextResponse.json({ ok: false, error: 'Category not found' }, { status: 404 });
+    }
 
     // Create a slug
-    const slug = name
+    let baseSlug = name
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/(^-|-$)/g, '');
+      
+    if (!baseSlug) baseSlug = 'item';
 
-    // Insert as pending
-    const { error } = await supabase.from('items').insert({
-      category_id: categoryId,
-      name,
-      slug,
-      descriptor,
-      status: 'pending',
-      image_url: 'https://via.placeholder.com/400x400.png?text=' + encodeURIComponent(name),
-      metadata: { submitted_by: anonId },
-    });
+    let slug = baseSlug;
+    let attempts = 0;
+    
+    while (attempts < 10) {
+      const { error } = await supabase.from('items').insert({
+        category_id: categoryId,
+        name,
+        slug,
+        descriptor,
+        status: 'pending',
+        image_url: null,
+        submitted_by_anon: anonId,
+      });
 
-    if (error) {
-      if (error.code === '23505') {
-        // Unique violation
-        return NextResponse.json({ ok: false, error: 'Item already exists' }, { status: 409 });
+      if (!error) {
+        return NextResponse.json({ ok: true });
       }
-      throw error;
+
+      if (error.code === '23505') {
+        attempts++;
+        slug = `${baseSlug}-${attempts + 1}`;
+      } else {
+        throw error;
+      }
     }
 
-    return NextResponse.json({ ok: true });
+    return NextResponse.json({ ok: false, error: 'Failed to generate unique slug' }, { status: 409 });
   } catch (err) {
     console.error(err);
     return NextResponse.json({ ok: false, error: 'Internal error' }, { status: 500 });

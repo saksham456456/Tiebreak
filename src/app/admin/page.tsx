@@ -4,8 +4,6 @@ import { redirect } from 'next/navigation';
 import { revalidatePath } from 'next/cache';
 import { z } from 'zod';
 
-const adminSupabase = getServiceClient();
-
 async function requireAdmin() {
   const supabase = await createClient();
   const {
@@ -19,6 +17,13 @@ async function requireAdmin() {
   return user;
 }
 
+interface PendingItem {
+  id: string;
+  name: string;
+  descriptor: string;
+  categories: { name: string } | null;
+}
+
 export default async function AdminPage() {
   const supabase = await createClient();
   const {
@@ -28,6 +33,8 @@ export default async function AdminPage() {
   if (!user || user.app_metadata?.role !== 'admin') {
     redirect('/');
   }
+
+  const adminSupabase = getServiceClient();
 
   const { data: pendingItems } = await adminSupabase
     .from('items')
@@ -39,16 +46,21 @@ export default async function AdminPage() {
     'use server';
     const adminUser = await requireAdmin();
     const id = formData.get('id') as string;
+    const adminSupabase = getServiceClient();
 
     if (!z.string().uuid().safeParse(id).success) throw new Error('Invalid UUID');
 
-    await adminSupabase.from('items').update({ status: 'active' }).eq('id', id);
+    const { error: updateError } = await adminSupabase.from('items').update({ status: 'active' }).eq('id', id);
+    if (updateError) throw updateError;
+
     // Write an audit log entry
-    await adminSupabase.from('audit_logs').insert({
+    const { error: auditError } = await adminSupabase.from('audit_logs').insert({
       admin_id: adminUser.id,
       action: 'approve_item',
       item_id: id,
     });
+    if (auditError) throw auditError;
+
     revalidatePath('/admin');
   }
 
@@ -56,16 +68,21 @@ export default async function AdminPage() {
     'use server';
     const adminUser = await requireAdmin();
     const id = formData.get('id') as string;
+    const adminSupabase = getServiceClient();
 
     if (!z.string().uuid().safeParse(id).success) throw new Error('Invalid UUID');
 
-    await adminSupabase.from('items').delete().eq('id', id);
+    const { error: deleteError } = await adminSupabase.from('items').delete().eq('id', id);
+    if (deleteError) throw deleteError;
+
     // Write an audit log entry
-    await adminSupabase.from('audit_logs').insert({
+    const { error: auditError } = await adminSupabase.from('audit_logs').insert({
       admin_id: adminUser.id,
       action: 'reject_item',
       item_id: id,
     });
+    if (auditError) throw auditError;
+
     revalidatePath('/admin');
   }
 
@@ -83,7 +100,7 @@ export default async function AdminPage() {
               Queue is empty. Great job!
             </div>
           ) : (
-            pendingItems.map((item: any) => (
+            (pendingItems as unknown as PendingItem[]).map((item) => (
               <div
                 key={item.id}
                 className="flex items-center justify-between rounded-2xl border bg-card p-6"

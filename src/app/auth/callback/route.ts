@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/auth/supabase';
-import { createClient as createAdminClient } from '@supabase/supabase-js';
+import { getServiceClient } from '@/lib/supabase/admin';
 import { getAnonId } from '@/lib/auth/anon';
 
 export async function GET(request: Request) {
@@ -8,8 +8,8 @@ export async function GET(request: Request) {
   const code = searchParams.get('code');
   let next = searchParams.get('next') ?? '/profile';
 
-  // Prevent Open Redirects: ensuring 'next' is a local relative path
-  if (!next.startsWith('/') || next.startsWith('//')) {
+  // Prevent Open Redirects: ensuring 'next' is a local relative path and has no path traversal
+  if (!next.startsWith('/') || next.startsWith('//') || next.includes('\\')) {
     next = '/profile';
   }
 
@@ -21,23 +21,19 @@ export async function GET(request: Request) {
       // Merge anon data immediately using signed HTTP-only cookie
       const anonId = await getAnonId();
       if (anonId) {
-        const adminClient = createAdminClient(
-          process.env.NEXT_PUBLIC_SUPABASE_URL!,
-          process.env.SUPABASE_SERVICE_ROLE_KEY!
-        );
-
+        const adminClient = getServiceClient();
         const userId = data.user.id;
 
-        // Idempotency: only link if user_id is currently null
-        const { data: currentAnon } = await adminClient
+        // Idempotency: only link if user_id is currently null, atomically
+        const { data: updatedRows } = await adminClient
           .from('anon_identities')
-          .select('user_id')
+          .update({ user_id: userId })
           .eq('anon_id', anonId)
-          .single();
+          .is('user_id', null)
+          .select('anon_id');
 
-        if (currentAnon && currentAnon.user_id === null) {
+        if (updatedRows && updatedRows.length > 0) {
           await Promise.all([
-            adminClient.from('anon_identities').update({ user_id: userId }).eq('anon_id', anonId),
             adminClient.from('votes').update({ user_id: userId }).eq('anon_id', anonId),
             adminClient
               .from('taste_profiles')

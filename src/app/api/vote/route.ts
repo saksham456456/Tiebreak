@@ -107,7 +107,7 @@ export async function POST(request: NextRequest) {
     // 4. Idempotency (atomic)
     if (isRedisConfigured()) {
       const idemKey = REDIS_KEYS.idempotency(data.clientVoteId);
-      const isNew = await redis.set(idemKey, '1', { nx: true, ex: 600 });
+      const isNew = await redis.set(idemKey, Date.now().toString(), { nx: true, ex: 600 });
       if (!isNew) {
         return NextResponse.json({ ok: false, error: 'Duplicate vote' }, { status: 409 });
       }
