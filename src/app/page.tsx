@@ -56,7 +56,7 @@ export default function HomePage() {
             <span className="font-mono text-xs font-bold text-rank-gold">03 // DNA</span>
             <h3 className="mt-2 font-display text-lg font-bold">Taste Profiles</h3>
             <p className="mt-1 font-sans text-xs text-muted-foreground">
-              Unlock streaks, badges, and discover your personal Dev Tools DNA via ML clustering.
+              Unlock streaks, badges, and discover your personal Dev Tools DNA via taste clustering.
             </p>
           </div>
         </div>

@@ -8,7 +8,7 @@ Tiebreak eliminates subjective top-10 lists by forcing users to vote on binary, 
 ## Features
 - **Pairwise Engine**: Redis-backed streams to handle massive concurrent vote throughput without locking Postgres.
 - **Dynamic 3D UI**: Framer Motion swipeable 3D cards for an instant, haptic voting experience.
-- **Taste Profiles**: Machine learning clusters that determine your "Dev Tools DNA" based on your voting biases.
+- **Taste Profiles**: A simulated taste-clustering engine that assigns your "Dev Tools DNA" based on voting biases (Full ML clustering coming in V2).
 - **Serverless Ready**: Next.js 15 App Router architecture ready for edge deployment.
 
 ## Tech Stack
