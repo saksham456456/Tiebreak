@@ -1,0 +1,2706 @@
+{
+  "name": "India",
+  "slug": "india",
+  "items": [
+    {
+      "name": "Pani Puri",
+      "slug": "pani-puri-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Vada Pav",
+      "slug": "vada-pav-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Samosa",
+      "slug": "samosa-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Kachori",
+      "slug": "kachori-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Chole Bhature",
+      "slug": "chole-bhature-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Pav Bhaji",
+      "slug": "pav-bhaji-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Dahi Puri",
+      "slug": "dahi-puri-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Sev Puri",
+      "slug": "sev-puri-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Bhel Puri",
+      "slug": "bhel-puri-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Aloo Tikki",
+      "slug": "aloo-tikki-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Momos",
+      "slug": "momos-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Kathi Roll",
+      "slug": "kathi-roll-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Dosa",
+      "slug": "dosa-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Idli",
+      "slug": "idli-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Medu Vada",
+      "slug": "medu-vada-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Uttapam",
+      "slug": "uttapam-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Poha",
+      "slug": "poha-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Jalebi",
+      "slug": "jalebi-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Imarti",
+      "slug": "imarti-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Dhokla",
+      "slug": "dhokla-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Khandvi",
+      "slug": "khandvi-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Thepla",
+      "slug": "thepla-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Misal Pav",
+      "slug": "misal-pav-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Litti Chokha",
+      "slug": "litti-chokha-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Bedmi Puri",
+      "slug": "bedmi-puri-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Kulcha",
+      "slug": "kulcha-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Paratha",
+      "slug": "paratha-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Bread Pakora",
+      "slug": "bread-pakora-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Maggi",
+      "slug": "maggi-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Egg Roll",
+      "slug": "egg-roll-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Chaat Papdi",
+      "slug": "chaat-papdi-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Raj Kachori",
+      "slug": "raj-kachori-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Golgappa",
+      "slug": "golgappa-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Tikki Chaat",
+      "slug": "tikki-chaat-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Dabeli",
+      "slug": "dabeli-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Frankie",
+      "slug": "frankie-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Sabudana Khichdi",
+      "slug": "sabudana-khichdi-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Appam",
+      "slug": "appam-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Puttu",
+      "slug": "puttu-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Banana Chips",
+      "slug": "banana-chips-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Bhutta",
+      "slug": "bhutta-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Gola",
+      "slug": "gola-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Kulfi",
+      "slug": "kulfi-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Rabri Falooda",
+      "slug": "rabri-falooda-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Lassi",
+      "slug": "lassi-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Nimbu Pani",
+      "slug": "nimbu-pani-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Jaljeera",
+      "slug": "jaljeera-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Sugarcane Juice",
+      "slug": "sugarcane-juice-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Masala Chai",
+      "slug": "masala-chai-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Filter Coffee",
+      "slug": "filter-coffee-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Rasgulla",
+      "slug": "rasgulla-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Gulab Jamun",
+      "slug": "gulab-jamun-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Kaju Katli",
+      "slug": "kaju-katli-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Ladoo",
+      "slug": "ladoo-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Barfi",
+      "slug": "barfi-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Peda",
+      "slug": "peda-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Soan Papdi",
+      "slug": "soan-papdi-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Rasmalai",
+      "slug": "rasmalai-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Malpua",
+      "slug": "malpua-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Mysore Pak",
+      "slug": "mysore-pak-food",
+      "descriptor": "A well-known food in India.",
+      "attributes": ["food", "india"]
+    },
+    {
+      "name": "Hyderabadi Biryani",
+      "slug": "hyderabadi-biryani-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Lucknowi Biryani",
+      "slug": "lucknowi-biryani-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Kolkata Biryani",
+      "slug": "kolkata-biryani-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Malabar Biryani",
+      "slug": "malabar-biryani-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Ambur Biryani",
+      "slug": "ambur-biryani-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Sindhi Biryani",
+      "slug": "sindhi-biryani-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Butter Chicken",
+      "slug": "butter-chicken-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Dal Makhani",
+      "slug": "dal-makhani-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Palak Paneer",
+      "slug": "palak-paneer-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Paneer Tikka",
+      "slug": "paneer-tikka-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Rajma Chawal",
+      "slug": "rajma-chawal-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Kadhi Chawal",
+      "slug": "kadhi-chawal-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Chole Chawal",
+      "slug": "chole-chawal-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Sarson da Saag",
+      "slug": "sarson-da-saag-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Makki di Roti",
+      "slug": "makki-di-roti-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Rogan Josh",
+      "slug": "rogan-josh-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Gushtaba",
+      "slug": "gushtaba-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Fish Curry",
+      "slug": "fish-curry-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Appam with Stew",
+      "slug": "appam-with-stew-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Sambar Rice",
+      "slug": "sambar-rice-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Curd Rice",
+      "slug": "curd-rice-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Bisi Bele Bath",
+      "slug": "bisi-bele-bath-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Dal Baati Churma",
+      "slug": "dal-baati-churma-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Gatte ki Sabzi",
+      "slug": "gatte-ki-sabzi-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Pithla Bhakri",
+      "slug": "pithla-bhakri-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Puran Poli",
+      "slug": "puran-poli-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Thalipeeth",
+      "slug": "thalipeeth-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Macher Jhol",
+      "slug": "macher-jhol-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Shorshe Ilish",
+      "slug": "shorshe-ilish-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Litti Chokha",
+      "slug": "litti-chokha-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Dal Pitha",
+      "slug": "dal-pitha-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Jadoh",
+      "slug": "jadoh-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Thukpa",
+      "slug": "thukpa-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Chana Masala",
+      "slug": "chana-masala-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Kofta",
+      "slug": "kofta-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Korma",
+      "slug": "korma-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Vindaloo",
+      "slug": "vindaloo-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Xacuti",
+      "slug": "xacuti-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Haleem",
+      "slug": "haleem-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Nihari",
+      "slug": "nihari-dish",
+      "descriptor": "A well-known dish in India.",
+      "attributes": ["dish", "india"]
+    },
+    {
+      "name": "Delhi",
+      "slug": "delhi-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Mumbai",
+      "slug": "mumbai-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Bengaluru",
+      "slug": "bengaluru-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Hyderabad",
+      "slug": "hyderabad-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Chennai",
+      "slug": "chennai-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Kolkata",
+      "slug": "kolkata-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Pune",
+      "slug": "pune-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Ahmedabad",
+      "slug": "ahmedabad-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Jaipur",
+      "slug": "jaipur-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Lucknow",
+      "slug": "lucknow-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Chandigarh",
+      "slug": "chandigarh-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Goa",
+      "slug": "goa-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Kochi",
+      "slug": "kochi-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Indore",
+      "slug": "indore-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Bhopal",
+      "slug": "bhopal-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Nagpur",
+      "slug": "nagpur-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Surat",
+      "slug": "surat-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Varanasi",
+      "slug": "varanasi-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Amritsar",
+      "slug": "amritsar-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Shimla",
+      "slug": "shimla-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Manali",
+      "slug": "manali-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Rishikesh",
+      "slug": "rishikesh-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Dehradun",
+      "slug": "dehradun-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Udaipur",
+      "slug": "udaipur-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Jodhpur",
+      "slug": "jodhpur-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Jaisalmer",
+      "slug": "jaisalmer-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Mysuru",
+      "slug": "mysuru-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Pondicherry",
+      "slug": "pondicherry-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Darjeeling",
+      "slug": "darjeeling-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Gangtok",
+      "slug": "gangtok-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Shillong",
+      "slug": "shillong-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Guwahati",
+      "slug": "guwahati-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Bhubaneswar",
+      "slug": "bhubaneswar-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Visakhapatnam",
+      "slug": "visakhapatnam-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Coimbatore",
+      "slug": "coimbatore-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Madurai",
+      "slug": "madurai-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Thiruvananthapuram",
+      "slug": "thiruvananthapuram-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Mangaluru",
+      "slug": "mangaluru-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Srinagar",
+      "slug": "srinagar-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Leh",
+      "slug": "leh-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Agra",
+      "slug": "agra-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Gurugram",
+      "slug": "gurugram-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Noida",
+      "slug": "noida-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Faridabad",
+      "slug": "faridabad-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Ghaziabad",
+      "slug": "ghaziabad-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Patna",
+      "slug": "patna-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Ranchi",
+      "slug": "ranchi-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Raipur",
+      "slug": "raipur-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Kanpur",
+      "slug": "kanpur-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Meerut",
+      "slug": "meerut-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Mathura",
+      "slug": "mathura-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Ayodhya",
+      "slug": "ayodhya-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Hampi",
+      "slug": "hampi-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Ooty",
+      "slug": "ooty-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Munnar",
+      "slug": "munnar-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Alleppey",
+      "slug": "alleppey-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Kodaikanal",
+      "slug": "kodaikanal-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Nainital",
+      "slug": "nainital-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Mussoorie",
+      "slug": "mussoorie-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Dharamshala",
+      "slug": "dharamshala-city",
+      "descriptor": "A well-known city in India.",
+      "attributes": ["city", "india"]
+    },
+    {
+      "name": "Sachin Tendulkar",
+      "slug": "sachin-tendulkar-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Virat Kohli",
+      "slug": "virat-kohli-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "MS Dhoni",
+      "slug": "ms-dhoni-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Rohit Sharma",
+      "slug": "rohit-sharma-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Kapil Dev",
+      "slug": "kapil-dev-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Sunil Gavaskar",
+      "slug": "sunil-gavaskar-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Rahul Dravid",
+      "slug": "rahul-dravid-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Sourav Ganguly",
+      "slug": "sourav-ganguly-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Anil Kumble",
+      "slug": "anil-kumble-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "VVS Laxman",
+      "slug": "vvs-laxman-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Virender Sehwag",
+      "slug": "virender-sehwag-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Yuvraj Singh",
+      "slug": "yuvraj-singh-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Zaheer Khan",
+      "slug": "zaheer-khan-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "slug": "jasprit-bumrah-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Ravichandran Ashwin",
+      "slug": "ravichandran-ashwin-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Ravindra Jadeja",
+      "slug": "ravindra-jadeja-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Harbhajan Singh",
+      "slug": "harbhajan-singh-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Shikhar Dhawan",
+      "slug": "shikhar-dhawan-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Gautam Gambhir",
+      "slug": "gautam-gambhir-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Rishabh Pant",
+      "slug": "rishabh-pant-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Hardik Pandya",
+      "slug": "hardik-pandya-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "KL Rahul",
+      "slug": "kl-rahul-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Mohammed Shami",
+      "slug": "mohammed-shami-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Cheteshwar Pujara",
+      "slug": "cheteshwar-pujara-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Ajinkya Rahane",
+      "slug": "ajinkya-rahane-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Ishant Sharma",
+      "slug": "ishant-sharma-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Bhuvneshwar Kumar",
+      "slug": "bhuvneshwar-kumar-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Suresh Raina",
+      "slug": "suresh-raina-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Javagal Srinath",
+      "slug": "javagal-srinath-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Venkatesh Prasad",
+      "slug": "venkatesh-prasad-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Navjot Singh Sidhu",
+      "slug": "navjot-singh-sidhu-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Mohammad Azharuddin",
+      "slug": "mohammad-azharuddin-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Ravi Shastri",
+      "slug": "ravi-shastri-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Dilip Vengsarkar",
+      "slug": "dilip-vengsarkar-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Mohinder Amarnath",
+      "slug": "mohinder-amarnath-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Bishan Singh Bedi",
+      "slug": "bishan-singh-bedi-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Erapalli Prasanna",
+      "slug": "erapalli-prasanna-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Bhagwat Chandrasekhar",
+      "slug": "bhagwat-chandrasekhar-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Srinivas Venkataraghavan",
+      "slug": "srinivas-venkataraghavan-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Mansoor Ali Khan Pataudi",
+      "slug": "mansoor-ali-khan-pataudi-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Vinoo Mankad",
+      "slug": "vinoo-mankad-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Vijay Hazare",
+      "slug": "vijay-hazare-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "CK Nayudu",
+      "slug": "ck-nayudu-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Lala Amarnath",
+      "slug": "lala-amarnath-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Polly Umrigar",
+      "slug": "polly-umrigar-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Subhash Gupte",
+      "slug": "subhash-gupte-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Syed Mushtaq Ali",
+      "slug": "syed-mushtaq-ali-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Amar Singh",
+      "slug": "amar-singh-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Mohammad Nissar",
+      "slug": "mohammad-nissar-cricketer",
+      "descriptor": "A well-known cricketer in India.",
+      "attributes": ["cricketer", "india"]
+    },
+    {
+      "name": "Sholay",
+      "slug": "sholay-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Dilwale Dulhania Le Jayenge",
+      "slug": "dilwale-dulhania-le-jayenge-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Lagaan",
+      "slug": "lagaan-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "3 Idiots",
+      "slug": "3-idiots-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Dangal",
+      "slug": "dangal-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Baahubali",
+      "slug": "baahubali-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Mother India",
+      "slug": "mother-india-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Mughal-e-Azam",
+      "slug": "mughal-e-azam-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Pyaasa",
+      "slug": "pyaasa-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Guide",
+      "slug": "guide-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Anand",
+      "slug": "anand-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Deewaar",
+      "slug": "deewaar-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Zanjeer",
+      "slug": "zanjeer-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Kabhi Kabhie",
+      "slug": "kabhi-kabhie-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Amar Akbar Anthony",
+      "slug": "amar-akbar-anthony-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Don",
+      "slug": "don-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Mr. India",
+      "slug": "mr-india-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Qayamat Se Qayamat Tak",
+      "slug": "qayamat-se-qayamat-tak-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Maine Pyar Kiya",
+      "slug": "maine-pyar-kiya-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Hum Aapke Hain Koun",
+      "slug": "hum-aapke-hain-koun-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Kuch Kuch Hota Hai",
+      "slug": "kuch-kuch-hota-hai-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Kabhi Khushi Kabhie Gham",
+      "slug": "kabhi-khushi-kabhie-gham-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Swades",
+      "slug": "swades-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Rang De Basanti",
+      "slug": "rang-de-basanti-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Chak De India",
+      "slug": "chak-de-india-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Taare Zameen Par",
+      "slug": "taare-zameen-par-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Munna Bhai M.B.B.S.",
+      "slug": "munna-bhai-m-b-b-s-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Hera Pheri",
+      "slug": "hera-pheri-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Andaz Apna Apna",
+      "slug": "andaz-apna-apna-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Dil Chahta Hai",
+      "slug": "dil-chahta-hai-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Kal Ho Naa Ho",
+      "slug": "kal-ho-naa-ho-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Veer-Zaara",
+      "slug": "veer-zaara-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Devdas",
+      "slug": "devdas-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Black",
+      "slug": "black-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Barfi",
+      "slug": "barfi-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Queen",
+      "slug": "queen-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Kahaani",
+      "slug": "kahaani-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Drishyam",
+      "slug": "drishyam-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "PK",
+      "slug": "pk-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Bajrangi Bhaijaan",
+      "slug": "bajrangi-bhaijaan-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Sultan",
+      "slug": "sultan-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Padmaavat",
+      "slug": "padmaavat-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Sanju",
+      "slug": "sanju-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Uri",
+      "slug": "uri-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Gully Boy",
+      "slug": "gully-boy-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Kabir Singh",
+      "slug": "kabir-singh-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "RRR",
+      "slug": "rrr-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "KGF",
+      "slug": "kgf-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Pushpa",
+      "slug": "pushpa-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Kantara",
+      "slug": "kantara-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Minnal Murali",
+      "slug": "minnal-murali-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Kumbalangi Nights",
+      "slug": "kumbalangi-nights-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Super Deluxe",
+      "slug": "super-deluxe-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Vikram",
+      "slug": "vikram-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Kaithi",
+      "slug": "kaithi-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Asuran",
+      "slug": "asuran-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Vada Chennai",
+      "slug": "vada-chennai-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Pariyerum Perumal",
+      "slug": "pariyerum-perumal-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Karnan",
+      "slug": "karnan-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Jai Bhim",
+      "slug": "jai-bhim-film",
+      "descriptor": "A well-known film in India.",
+      "attributes": ["film", "india"]
+    },
+    {
+      "name": "Paytm",
+      "slug": "paytm-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "PhonePe",
+      "slug": "phonepe-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Google Pay",
+      "slug": "google-pay-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Zomato",
+      "slug": "zomato-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Swiggy",
+      "slug": "swiggy-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Blinkit",
+      "slug": "blinkit-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Zepto",
+      "slug": "zepto-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Flipkart",
+      "slug": "flipkart-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Amazon India",
+      "slug": "amazon-india-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Myntra",
+      "slug": "myntra-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Ola",
+      "slug": "ola-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Uber",
+      "slug": "uber-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Rapido",
+      "slug": "rapido-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Jio",
+      "slug": "jio-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Airtel",
+      "slug": "airtel-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Tata",
+      "slug": "tata-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Reliance",
+      "slug": "reliance-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Amul",
+      "slug": "amul-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Parle-G",
+      "slug": "parle-g-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Maggi",
+      "slug": "maggi-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Britannia",
+      "slug": "britannia-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Haldiram's",
+      "slug": "haldiram-s-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Royal Enfield",
+      "slug": "royal-enfield-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Maruti",
+      "slug": "maruti-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Mahindra",
+      "slug": "mahindra-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Hero",
+      "slug": "hero-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Bajaj",
+      "slug": "bajaj-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Boat",
+      "slug": "boat-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Noise",
+      "slug": "noise-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Nykaa",
+      "slug": "nykaa-brand",
+      "descriptor": "A well-known brand in India.",
+      "attributes": ["brand", "india"]
+    },
+    {
+      "name": "Masala Chai",
+      "slug": "masala-chai-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Adrak Chai",
+      "slug": "adrak-chai-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Kulhad Chai",
+      "slug": "kulhad-chai-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Irani Chai",
+      "slug": "irani-chai-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Cutting Chai",
+      "slug": "cutting-chai-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Filter Coffee",
+      "slug": "filter-coffee-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Lassi",
+      "slug": "lassi-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Chaas",
+      "slug": "chaas-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Thandai",
+      "slug": "thandai-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Jaljeera",
+      "slug": "jaljeera-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Nimbu Soda",
+      "slug": "nimbu-soda-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Rooh Afza",
+      "slug": "rooh-afza-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Badam Milk",
+      "slug": "badam-milk-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Kokum Sherbet",
+      "slug": "kokum-sherbet-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Aam Panna",
+      "slug": "aam-panna-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Coconut Water",
+      "slug": "coconut-water-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Sugarcane Juice",
+      "slug": "sugarcane-juice-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Bournvita",
+      "slug": "bournvita-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Horlicks",
+      "slug": "horlicks-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Cold Coffee",
+      "slug": "cold-coffee-drink",
+      "descriptor": "A well-known drink in India.",
+      "attributes": ["drink", "india"]
+    },
+    {
+      "name": "Diwali",
+      "slug": "diwali-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Holi",
+      "slug": "holi-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Eid",
+      "slug": "eid-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Navratri",
+      "slug": "navratri-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Durga Puja",
+      "slug": "durga-puja-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Ganesh Chaturthi",
+      "slug": "ganesh-chaturthi-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Raksha Bandhan",
+      "slug": "raksha-bandhan-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Christmas",
+      "slug": "christmas-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Onam",
+      "slug": "onam-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Pongal",
+      "slug": "pongal-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Baisakhi",
+      "slug": "baisakhi-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Lohri",
+      "slug": "lohri-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Makar Sankranti",
+      "slug": "makar-sankranti-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Janmashtami",
+      "slug": "janmashtami-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Dussehra",
+      "slug": "dussehra-festival",
+      "descriptor": "A well-known festival in India.",
+      "attributes": ["festival", "india"]
+    },
+    {
+      "name": "Delhi vs Mumbai",
+      "slug": "delhi-vs-mumbai-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Chai vs Coffee",
+      "slug": "chai-vs-coffee-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Hyderabadi vs Lucknowi Biryani",
+      "slug": "hyderabadi-vs-lucknowi-biryani-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Bangalore vs Pune",
+      "slug": "bangalore-vs-pune-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Dosa vs Idli",
+      "slug": "dosa-vs-idli-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Pani Puri vs Bhel",
+      "slug": "pani-puri-vs-bhel-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "North vs South Indian food",
+      "slug": "north-vs-south-indian-food-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Zomato vs Swiggy",
+      "slug": "zomato-vs-swiggy-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Samosa vs Kachori",
+      "slug": "samosa-vs-kachori-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Gulab Jamun vs Rasgulla",
+      "slug": "gulab-jamun-vs-rasgulla-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Maggi with veggies vs plain",
+      "slug": "maggi-with-veggies-vs-plain-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Monsoon vs Winter",
+      "slug": "monsoon-vs-winter-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Train vs Flight",
+      "slug": "train-vs-flight-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Cricket vs Football",
+      "slug": "cricket-vs-football-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "IPL vs World Cup",
+      "slug": "ipl-vs-world-cup-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Paratha with curd vs pickle",
+      "slug": "paratha-with-curd-vs-pickle-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Vada Pav vs Pav Bhaji",
+      "slug": "vada-pav-vs-pav-bhaji-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Goa vs Manali",
+      "slug": "goa-vs-manali-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Jalebi with milk vs rabri",
+      "slug": "jalebi-with-milk-vs-rabri-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Bollywood vs South cinema",
+      "slug": "bollywood-vs-south-cinema-hot",
+      "descriptor": "A well-known hot in India.",
+      "attributes": ["hot", "india"]
+    },
+    {
+      "name": "Dummy India Item 354",
+      "slug": "dummy-india-item-354-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 355",
+      "slug": "dummy-india-item-355-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 356",
+      "slug": "dummy-india-item-356-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 357",
+      "slug": "dummy-india-item-357-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 358",
+      "slug": "dummy-india-item-358-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 359",
+      "slug": "dummy-india-item-359-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 360",
+      "slug": "dummy-india-item-360-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 361",
+      "slug": "dummy-india-item-361-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 362",
+      "slug": "dummy-india-item-362-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 363",
+      "slug": "dummy-india-item-363-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 364",
+      "slug": "dummy-india-item-364-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 365",
+      "slug": "dummy-india-item-365-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 366",
+      "slug": "dummy-india-item-366-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 367",
+      "slug": "dummy-india-item-367-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 368",
+      "slug": "dummy-india-item-368-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 369",
+      "slug": "dummy-india-item-369-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 370",
+      "slug": "dummy-india-item-370-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 371",
+      "slug": "dummy-india-item-371-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 372",
+      "slug": "dummy-india-item-372-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 373",
+      "slug": "dummy-india-item-373-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 374",
+      "slug": "dummy-india-item-374-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 375",
+      "slug": "dummy-india-item-375-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 376",
+      "slug": "dummy-india-item-376-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 377",
+      "slug": "dummy-india-item-377-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 378",
+      "slug": "dummy-india-item-378-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 379",
+      "slug": "dummy-india-item-379-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 380",
+      "slug": "dummy-india-item-380-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 381",
+      "slug": "dummy-india-item-381-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 382",
+      "slug": "dummy-india-item-382-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 383",
+      "slug": "dummy-india-item-383-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 384",
+      "slug": "dummy-india-item-384-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 385",
+      "slug": "dummy-india-item-385-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 386",
+      "slug": "dummy-india-item-386-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 387",
+      "slug": "dummy-india-item-387-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 388",
+      "slug": "dummy-india-item-388-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 389",
+      "slug": "dummy-india-item-389-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 390",
+      "slug": "dummy-india-item-390-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 391",
+      "slug": "dummy-india-item-391-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 392",
+      "slug": "dummy-india-item-392-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 393",
+      "slug": "dummy-india-item-393-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 394",
+      "slug": "dummy-india-item-394-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 395",
+      "slug": "dummy-india-item-395-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 396",
+      "slug": "dummy-india-item-396-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 397",
+      "slug": "dummy-india-item-397-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 398",
+      "slug": "dummy-india-item-398-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 399",
+      "slug": "dummy-india-item-399-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 400",
+      "slug": "dummy-india-item-400-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 401",
+      "slug": "dummy-india-item-401-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 402",
+      "slug": "dummy-india-item-402-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 403",
+      "slug": "dummy-india-item-403-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 404",
+      "slug": "dummy-india-item-404-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 405",
+      "slug": "dummy-india-item-405-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 406",
+      "slug": "dummy-india-item-406-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 407",
+      "slug": "dummy-india-item-407-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 408",
+      "slug": "dummy-india-item-408-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 409",
+      "slug": "dummy-india-item-409-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 410",
+      "slug": "dummy-india-item-410-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 411",
+      "slug": "dummy-india-item-411-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 412",
+      "slug": "dummy-india-item-412-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 413",
+      "slug": "dummy-india-item-413-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 414",
+      "slug": "dummy-india-item-414-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 415",
+      "slug": "dummy-india-item-415-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 416",
+      "slug": "dummy-india-item-416-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 417",
+      "slug": "dummy-india-item-417-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 418",
+      "slug": "dummy-india-item-418-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 419",
+      "slug": "dummy-india-item-419-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 420",
+      "slug": "dummy-india-item-420-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 421",
+      "slug": "dummy-india-item-421-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 422",
+      "slug": "dummy-india-item-422-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 423",
+      "slug": "dummy-india-item-423-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 424",
+      "slug": "dummy-india-item-424-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 425",
+      "slug": "dummy-india-item-425-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 426",
+      "slug": "dummy-india-item-426-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 427",
+      "slug": "dummy-india-item-427-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 428",
+      "slug": "dummy-india-item-428-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 429",
+      "slug": "dummy-india-item-429-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 430",
+      "slug": "dummy-india-item-430-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 431",
+      "slug": "dummy-india-item-431-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 432",
+      "slug": "dummy-india-item-432-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 433",
+      "slug": "dummy-india-item-433-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 434",
+      "slug": "dummy-india-item-434-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 435",
+      "slug": "dummy-india-item-435-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 436",
+      "slug": "dummy-india-item-436-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 437",
+      "slug": "dummy-india-item-437-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 438",
+      "slug": "dummy-india-item-438-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 439",
+      "slug": "dummy-india-item-439-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 440",
+      "slug": "dummy-india-item-440-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 441",
+      "slug": "dummy-india-item-441-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 442",
+      "slug": "dummy-india-item-442-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 443",
+      "slug": "dummy-india-item-443-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 444",
+      "slug": "dummy-india-item-444-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 445",
+      "slug": "dummy-india-item-445-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 446",
+      "slug": "dummy-india-item-446-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 447",
+      "slug": "dummy-india-item-447-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 448",
+      "slug": "dummy-india-item-448-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy India Item 449",
+      "slug": "dummy-india-item-449-dummy",
+      "descriptor": "A dummy item",
+      "attributes": ["dummy"]
+    }
+  ]
+}

@@ -1,0 +1,2706 @@
+{
+  "name": "Dev Tools and Tech",
+  "slug": "dev-tools",
+  "items": [
+    {
+      "name": "Python",
+      "slug": "python-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "JavaScript",
+      "slug": "javascript-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "TypeScript",
+      "slug": "typescript-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Java",
+      "slug": "java-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "C",
+      "slug": "c-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "C++",
+      "slug": "cpp-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "C#",
+      "slug": "csharp-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Go",
+      "slug": "go-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Rust",
+      "slug": "rust-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Kotlin",
+      "slug": "kotlin-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Swift",
+      "slug": "swift-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "PHP",
+      "slug": "php-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Ruby",
+      "slug": "ruby-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Dart",
+      "slug": "dart-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Scala",
+      "slug": "scala-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Elixir",
+      "slug": "elixir-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Haskell",
+      "slug": "haskell-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Lua",
+      "slug": "lua-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "R",
+      "slug": "r-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Julia",
+      "slug": "julia-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Perl",
+      "slug": "perl-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Zig",
+      "slug": "zig-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Nim",
+      "slug": "nim-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "OCaml",
+      "slug": "ocaml-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Clojure",
+      "slug": "clojure-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "F#",
+      "slug": "fsharp-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Erlang",
+      "slug": "erlang-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Objective-C",
+      "slug": "objective-c-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Assembly",
+      "slug": "assembly-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "SQL",
+      "slug": "sql-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Bash",
+      "slug": "bash-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "PowerShell",
+      "slug": "powershell-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "MATLAB",
+      "slug": "matlab-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Fortran",
+      "slug": "fortran-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "COBOL",
+      "slug": "cobol-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Lisp",
+      "slug": "lisp-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Racket",
+      "slug": "racket-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Crystal",
+      "slug": "crystal-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "V",
+      "slug": "v-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Solidity",
+      "slug": "solidity-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Groovy",
+      "slug": "groovy-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Visual Basic",
+      "slug": "visual-basic-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Delphi",
+      "slug": "delphi-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Ada",
+      "slug": "ada-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Prolog",
+      "slug": "prolog-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Smalltalk",
+      "slug": "smalltalk-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Elm",
+      "slug": "elm-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Gleam",
+      "slug": "gleam-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Mojo",
+      "slug": "mojo-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Carbon",
+      "slug": "carbon-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "CoffeeScript",
+      "slug": "coffeescript-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Scheme",
+      "slug": "scheme-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "D",
+      "slug": "d-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Hack",
+      "slug": "hack-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Raku",
+      "slug": "raku-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Move",
+      "slug": "move-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "WebAssembly",
+      "slug": "webassembly-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Vala",
+      "slug": "vala-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "Pascal",
+      "slug": "pascal-lang",
+      "descriptor": "A popular lang tech item.",
+      "attributes": ["lang", "tech"]
+    },
+    {
+      "name": "React",
+      "slug": "react-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Vue",
+      "slug": "vue-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Angular",
+      "slug": "angular-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Svelte",
+      "slug": "svelte-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "SolidJS",
+      "slug": "solidjs-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Qwik",
+      "slug": "qwik-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Astro",
+      "slug": "astro-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Next.js",
+      "slug": "next-js-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Nuxt",
+      "slug": "nuxt-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Remix",
+      "slug": "remix-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "SvelteKit",
+      "slug": "sveltekit-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Preact",
+      "slug": "preact-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Alpine.js",
+      "slug": "alpine-js-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "HTMX",
+      "slug": "htmx-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Lit",
+      "slug": "lit-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Ember",
+      "slug": "ember-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Backbone",
+      "slug": "backbone-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "jQuery",
+      "slug": "jquery-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Stimulus",
+      "slug": "stimulus-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Mithril",
+      "slug": "mithril-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Marko",
+      "slug": "marko-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Fresh",
+      "slug": "fresh-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Gatsby",
+      "slug": "gatsby-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Eleventy",
+      "slug": "eleventy-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Vite",
+      "slug": "vite-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Webpack",
+      "slug": "webpack-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Parcel",
+      "slug": "parcel-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Turbopack",
+      "slug": "turbopack-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "esbuild",
+      "slug": "esbuild-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Rollup",
+      "slug": "rollup-front",
+      "descriptor": "A popular front tech item.",
+      "attributes": ["front", "tech"]
+    },
+    {
+      "name": "Express",
+      "slug": "express-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Fastify",
+      "slug": "fastify-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "NestJS",
+      "slug": "nestjs-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Django",
+      "slug": "django-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Flask",
+      "slug": "flask-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "FastAPI",
+      "slug": "fastapi-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Rails",
+      "slug": "rails-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Laravel",
+      "slug": "laravel-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Spring Boot",
+      "slug": "spring-boot-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "ASP.NET Core",
+      "slug": "asp-net-core-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Phoenix",
+      "slug": "phoenix-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Gin",
+      "slug": "gin-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Fiber",
+      "slug": "fiber-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Actix",
+      "slug": "actix-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Axum",
+      "slug": "axum-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Hono",
+      "slug": "hono-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Koa",
+      "slug": "koa-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Symfony",
+      "slug": "symfony-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Quarkus",
+      "slug": "quarkus-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Micronaut",
+      "slug": "micronaut-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Deno Fresh",
+      "slug": "deno-fresh-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Bun",
+      "slug": "bun-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Elysia",
+      "slug": "elysia-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "AdonisJS",
+      "slug": "adonisjs-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Strapi",
+      "slug": "strapi-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Sails",
+      "slug": "sails-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Play",
+      "slug": "play-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Ktor",
+      "slug": "ktor-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Vapor",
+      "slug": "vapor-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Rocket",
+      "slug": "rocket-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Echo",
+      "slug": "echo-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Tornado",
+      "slug": "tornado-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Sinatra",
+      "slug": "sinatra-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "Hapi",
+      "slug": "hapi-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "CakePHP",
+      "slug": "cakephp-back",
+      "descriptor": "A popular back tech item.",
+      "attributes": ["back", "tech"]
+    },
+    {
+      "name": "PostgreSQL",
+      "slug": "postgresql-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "MySQL",
+      "slug": "mysql-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "SQLite",
+      "slug": "sqlite-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "MongoDB",
+      "slug": "mongodb-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "Redis",
+      "slug": "redis-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "Cassandra",
+      "slug": "cassandra-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "DynamoDB",
+      "slug": "dynamodb-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "Firestore",
+      "slug": "firestore-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "Supabase",
+      "slug": "supabase-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "PlanetScale",
+      "slug": "planetscale-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "CockroachDB",
+      "slug": "cockroachdb-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "ClickHouse",
+      "slug": "clickhouse-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "DuckDB",
+      "slug": "duckdb-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "Neo4j",
+      "slug": "neo4j-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "Elasticsearch",
+      "slug": "elasticsearch-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "MariaDB",
+      "slug": "mariadb-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "Oracle",
+      "slug": "oracle-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "SQL Server",
+      "slug": "sql-server-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "Couchbase",
+      "slug": "couchbase-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "Valkey",
+      "slug": "valkey-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "SurrealDB",
+      "slug": "surrealdb-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "TiDB",
+      "slug": "tidb-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "Turso",
+      "slug": "turso-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "Neon",
+      "slug": "neon-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "Pinecone",
+      "slug": "pinecone-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "pgvector",
+      "slug": "pgvector-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "InfluxDB",
+      "slug": "influxdb-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "TimescaleDB",
+      "slug": "timescaledb-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "RethinkDB",
+      "slug": "rethinkdb-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "FaunaDB",
+      "slug": "faunadb-db",
+      "descriptor": "A popular db tech item.",
+      "attributes": ["db", "tech"]
+    },
+    {
+      "name": "VS Code",
+      "slug": "vs-code-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Neovim",
+      "slug": "neovim-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Vim",
+      "slug": "vim-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Emacs",
+      "slug": "emacs-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "JetBrains IntelliJ",
+      "slug": "jetbrains-intellij-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "WebStorm",
+      "slug": "webstorm-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "PyCharm",
+      "slug": "pycharm-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Sublime Text",
+      "slug": "sublime-text-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Cursor",
+      "slug": "cursor-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Zed",
+      "slug": "zed-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Windsurf",
+      "slug": "windsurf-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Xcode",
+      "slug": "xcode-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Android Studio",
+      "slug": "android-studio-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Visual Studio",
+      "slug": "visual-studio-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Atom",
+      "slug": "atom-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Helix",
+      "slug": "helix-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Notepad++",
+      "slug": "notepadpp-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Nano",
+      "slug": "nano-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Eclipse",
+      "slug": "eclipse-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Fleet",
+      "slug": "fleet-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Kate",
+      "slug": "kate-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "BBEdit",
+      "slug": "bbedit-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Lapce",
+      "slug": "lapce-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Micro",
+      "slug": "micro-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Kakoune",
+      "slug": "kakoune-editor",
+      "descriptor": "A popular editor tech item.",
+      "attributes": ["editor", "tech"]
+    },
+    {
+      "name": "Claude Code",
+      "slug": "claude-code-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "GitHub Copilot",
+      "slug": "github-copilot-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Cursor",
+      "slug": "cursor-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Windsurf",
+      "slug": "windsurf-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Codex",
+      "slug": "codex-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Gemini CLI",
+      "slug": "gemini-cli-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Aider",
+      "slug": "aider-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Cline",
+      "slug": "cline-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Continue",
+      "slug": "continue-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Tabnine",
+      "slug": "tabnine-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Replit Agent",
+      "slug": "replit-agent-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Lovable",
+      "slug": "lovable-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Bolt",
+      "slug": "bolt-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "v0",
+      "slug": "v0-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Devin",
+      "slug": "devin-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Amazon Q",
+      "slug": "amazon-q-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "JetBrains AI",
+      "slug": "jetbrains-ai-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Sourcegraph Cody",
+      "slug": "sourcegraph-cody-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Supermaven",
+      "slug": "supermaven-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Zed AI",
+      "slug": "zed-ai-ai",
+      "descriptor": "A popular ai tech item.",
+      "attributes": ["ai", "tech"]
+    },
+    {
+      "name": "Vercel",
+      "slug": "vercel-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Netlify",
+      "slug": "netlify-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Cloudflare",
+      "slug": "cloudflare-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "AWS",
+      "slug": "aws-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Google Cloud",
+      "slug": "google-cloud-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Azure",
+      "slug": "azure-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "DigitalOcean",
+      "slug": "digitalocean-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Render",
+      "slug": "render-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Railway",
+      "slug": "railway-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Fly.io",
+      "slug": "fly-io-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Heroku",
+      "slug": "heroku-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Hetzner",
+      "slug": "hetzner-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Linode",
+      "slug": "linode-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Vultr",
+      "slug": "vultr-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Supabase",
+      "slug": "supabase-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Firebase",
+      "slug": "firebase-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Deno Deploy",
+      "slug": "deno-deploy-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "GitHub Pages",
+      "slug": "github-pages-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Oracle Cloud",
+      "slug": "oracle-cloud-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "OVH",
+      "slug": "ovh-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Scaleway",
+      "slug": "scaleway-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Coolify",
+      "slug": "coolify-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Dokploy",
+      "slug": "dokploy-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Appwrite",
+      "slug": "appwrite-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Convex",
+      "slug": "convex-cloud",
+      "descriptor": "A popular cloud tech item.",
+      "attributes": ["cloud", "tech"]
+    },
+    {
+      "name": "Tailwind",
+      "slug": "tailwind-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Bootstrap",
+      "slug": "bootstrap-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "shadcn/ui",
+      "slug": "shadcn-ui-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Material UI",
+      "slug": "material-ui-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Chakra UI",
+      "slug": "chakra-ui-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Ant Design",
+      "slug": "ant-design-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Bulma",
+      "slug": "bulma-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Sass",
+      "slug": "sass-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "CSS Modules",
+      "slug": "css-modules-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "styled-components",
+      "slug": "styled-components-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Emotion",
+      "slug": "emotion-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Radix",
+      "slug": "radix-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "DaisyUI",
+      "slug": "daisyui-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Mantine",
+      "slug": "mantine-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Headless UI",
+      "slug": "headless-ui-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "UnoCSS",
+      "slug": "unocss-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Panda CSS",
+      "slug": "panda-css-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Foundation",
+      "slug": "foundation-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Pico CSS",
+      "slug": "pico-css-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Open Props",
+      "slug": "open-props-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Vanilla CSS",
+      "slug": "vanilla-css-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Less",
+      "slug": "less-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "PostCSS",
+      "slug": "postcss-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Stylus",
+      "slug": "stylus-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Material 3",
+      "slug": "material-3-css",
+      "descriptor": "A popular css tech item.",
+      "attributes": ["css", "tech"]
+    },
+    {
+      "name": "Windows 11",
+      "slug": "windows-11-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "macOS",
+      "slug": "macos-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Ubuntu",
+      "slug": "ubuntu-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Arch",
+      "slug": "arch-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Debian",
+      "slug": "debian-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Fedora",
+      "slug": "fedora-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Linux Mint",
+      "slug": "linux-mint-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Pop!_OS",
+      "slug": "pop-os-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "NixOS",
+      "slug": "nixos-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Manjaro",
+      "slug": "manjaro-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Kali",
+      "slug": "kali-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Alpine",
+      "slug": "alpine-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Gentoo",
+      "slug": "gentoo-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "FreeBSD",
+      "slug": "freebsd-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "ChromeOS",
+      "slug": "chromeos-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "openSUSE",
+      "slug": "opensuse-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Elementary OS",
+      "slug": "elementary-os-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Zorin",
+      "slug": "zorin-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Rocky",
+      "slug": "rocky-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Void",
+      "slug": "void-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Android",
+      "slug": "android-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "iOS",
+      "slug": "ios-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "HarmonyOS",
+      "slug": "harmonyos-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Tails",
+      "slug": "tails-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Qubes",
+      "slug": "qubes-os",
+      "descriptor": "A popular os tech item.",
+      "attributes": ["os", "tech"]
+    },
+    {
+      "name": "Tabs vs Spaces",
+      "slug": "tabs-vs-spaces-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Light vs Dark mode",
+      "slug": "light-vs-dark-mode-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "REST vs GraphQL",
+      "slug": "rest-vs-graphql-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Monolith vs Microservices",
+      "slug": "monolith-vs-microservices-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "SQL vs NoSQL",
+      "slug": "sql-vs-nosql-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Git rebase vs merge",
+      "slug": "git-rebase-vs-merge-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Vim vs Emacs",
+      "slug": "vim-vs-emacs-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Mac vs Linux for dev",
+      "slug": "mac-vs-linux-for-dev-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Mechanical vs membrane keyboards",
+      "slug": "mechanical-vs-membrane-keyboards-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Remote vs Office",
+      "slug": "remote-vs-office-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Semicolons vs none",
+      "slug": "semicolons-vs-none-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Monorepo vs polyrepo",
+      "slug": "monorepo-vs-polyrepo-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Static vs dynamic typing",
+      "slug": "static-vs-dynamic-typing-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Standing vs sitting desk",
+      "slug": "standing-vs-sitting-desk-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Docker vs Podman",
+      "slug": "docker-vs-podman-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "npm vs pnpm vs Yarn vs Bun",
+      "slug": "npm-vs-pnpm-vs-yarn-vs-bun-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "OOP vs Functional",
+      "slug": "oop-vs-functional-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Dark roast vs Light roast coffee for coding",
+      "slug": "dark-roast-vs-light-roast-coffee-for-coding-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Chai vs Coffee",
+      "slug": "chai-vs-coffee-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Stack Overflow vs AI chat",
+      "slug": "stack-overflow-vs-ai-chat-topic",
+      "descriptor": "A popular topic tech item.",
+      "attributes": ["topic", "tech"]
+    },
+    {
+      "name": "Dummy Dev Tool 294",
+      "slug": "dummy-dev-tool-294-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 295",
+      "slug": "dummy-dev-tool-295-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 296",
+      "slug": "dummy-dev-tool-296-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 297",
+      "slug": "dummy-dev-tool-297-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 298",
+      "slug": "dummy-dev-tool-298-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 299",
+      "slug": "dummy-dev-tool-299-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 300",
+      "slug": "dummy-dev-tool-300-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 301",
+      "slug": "dummy-dev-tool-301-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 302",
+      "slug": "dummy-dev-tool-302-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 303",
+      "slug": "dummy-dev-tool-303-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 304",
+      "slug": "dummy-dev-tool-304-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 305",
+      "slug": "dummy-dev-tool-305-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 306",
+      "slug": "dummy-dev-tool-306-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 307",
+      "slug": "dummy-dev-tool-307-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 308",
+      "slug": "dummy-dev-tool-308-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 309",
+      "slug": "dummy-dev-tool-309-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 310",
+      "slug": "dummy-dev-tool-310-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 311",
+      "slug": "dummy-dev-tool-311-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 312",
+      "slug": "dummy-dev-tool-312-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 313",
+      "slug": "dummy-dev-tool-313-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 314",
+      "slug": "dummy-dev-tool-314-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 315",
+      "slug": "dummy-dev-tool-315-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 316",
+      "slug": "dummy-dev-tool-316-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 317",
+      "slug": "dummy-dev-tool-317-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 318",
+      "slug": "dummy-dev-tool-318-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 319",
+      "slug": "dummy-dev-tool-319-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 320",
+      "slug": "dummy-dev-tool-320-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 321",
+      "slug": "dummy-dev-tool-321-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 322",
+      "slug": "dummy-dev-tool-322-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 323",
+      "slug": "dummy-dev-tool-323-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 324",
+      "slug": "dummy-dev-tool-324-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 325",
+      "slug": "dummy-dev-tool-325-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 326",
+      "slug": "dummy-dev-tool-326-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 327",
+      "slug": "dummy-dev-tool-327-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 328",
+      "slug": "dummy-dev-tool-328-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 329",
+      "slug": "dummy-dev-tool-329-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 330",
+      "slug": "dummy-dev-tool-330-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 331",
+      "slug": "dummy-dev-tool-331-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 332",
+      "slug": "dummy-dev-tool-332-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 333",
+      "slug": "dummy-dev-tool-333-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 334",
+      "slug": "dummy-dev-tool-334-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 335",
+      "slug": "dummy-dev-tool-335-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 336",
+      "slug": "dummy-dev-tool-336-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 337",
+      "slug": "dummy-dev-tool-337-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 338",
+      "slug": "dummy-dev-tool-338-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 339",
+      "slug": "dummy-dev-tool-339-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 340",
+      "slug": "dummy-dev-tool-340-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 341",
+      "slug": "dummy-dev-tool-341-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 342",
+      "slug": "dummy-dev-tool-342-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 343",
+      "slug": "dummy-dev-tool-343-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 344",
+      "slug": "dummy-dev-tool-344-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 345",
+      "slug": "dummy-dev-tool-345-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 346",
+      "slug": "dummy-dev-tool-346-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 347",
+      "slug": "dummy-dev-tool-347-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 348",
+      "slug": "dummy-dev-tool-348-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 349",
+      "slug": "dummy-dev-tool-349-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 350",
+      "slug": "dummy-dev-tool-350-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 351",
+      "slug": "dummy-dev-tool-351-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 352",
+      "slug": "dummy-dev-tool-352-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 353",
+      "slug": "dummy-dev-tool-353-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 354",
+      "slug": "dummy-dev-tool-354-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 355",
+      "slug": "dummy-dev-tool-355-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 356",
+      "slug": "dummy-dev-tool-356-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 357",
+      "slug": "dummy-dev-tool-357-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 358",
+      "slug": "dummy-dev-tool-358-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 359",
+      "slug": "dummy-dev-tool-359-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 360",
+      "slug": "dummy-dev-tool-360-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 361",
+      "slug": "dummy-dev-tool-361-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 362",
+      "slug": "dummy-dev-tool-362-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 363",
+      "slug": "dummy-dev-tool-363-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 364",
+      "slug": "dummy-dev-tool-364-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 365",
+      "slug": "dummy-dev-tool-365-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 366",
+      "slug": "dummy-dev-tool-366-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 367",
+      "slug": "dummy-dev-tool-367-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 368",
+      "slug": "dummy-dev-tool-368-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 369",
+      "slug": "dummy-dev-tool-369-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 370",
+      "slug": "dummy-dev-tool-370-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 371",
+      "slug": "dummy-dev-tool-371-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 372",
+      "slug": "dummy-dev-tool-372-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 373",
+      "slug": "dummy-dev-tool-373-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 374",
+      "slug": "dummy-dev-tool-374-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 375",
+      "slug": "dummy-dev-tool-375-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 376",
+      "slug": "dummy-dev-tool-376-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 377",
+      "slug": "dummy-dev-tool-377-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 378",
+      "slug": "dummy-dev-tool-378-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 379",
+      "slug": "dummy-dev-tool-379-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 380",
+      "slug": "dummy-dev-tool-380-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 381",
+      "slug": "dummy-dev-tool-381-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 382",
+      "slug": "dummy-dev-tool-382-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 383",
+      "slug": "dummy-dev-tool-383-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 384",
+      "slug": "dummy-dev-tool-384-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 385",
+      "slug": "dummy-dev-tool-385-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 386",
+      "slug": "dummy-dev-tool-386-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 387",
+      "slug": "dummy-dev-tool-387-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 388",
+      "slug": "dummy-dev-tool-388-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 389",
+      "slug": "dummy-dev-tool-389-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 390",
+      "slug": "dummy-dev-tool-390-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 391",
+      "slug": "dummy-dev-tool-391-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 392",
+      "slug": "dummy-dev-tool-392-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 393",
+      "slug": "dummy-dev-tool-393-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 394",
+      "slug": "dummy-dev-tool-394-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 395",
+      "slug": "dummy-dev-tool-395-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 396",
+      "slug": "dummy-dev-tool-396-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 397",
+      "slug": "dummy-dev-tool-397-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 398",
+      "slug": "dummy-dev-tool-398-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 399",
+      "slug": "dummy-dev-tool-399-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 400",
+      "slug": "dummy-dev-tool-400-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 401",
+      "slug": "dummy-dev-tool-401-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 402",
+      "slug": "dummy-dev-tool-402-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 403",
+      "slug": "dummy-dev-tool-403-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 404",
+      "slug": "dummy-dev-tool-404-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 405",
+      "slug": "dummy-dev-tool-405-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 406",
+      "slug": "dummy-dev-tool-406-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 407",
+      "slug": "dummy-dev-tool-407-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 408",
+      "slug": "dummy-dev-tool-408-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 409",
+      "slug": "dummy-dev-tool-409-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 410",
+      "slug": "dummy-dev-tool-410-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 411",
+      "slug": "dummy-dev-tool-411-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 412",
+      "slug": "dummy-dev-tool-412-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 413",
+      "slug": "dummy-dev-tool-413-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 414",
+      "slug": "dummy-dev-tool-414-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 415",
+      "slug": "dummy-dev-tool-415-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 416",
+      "slug": "dummy-dev-tool-416-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 417",
+      "slug": "dummy-dev-tool-417-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 418",
+      "slug": "dummy-dev-tool-418-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 419",
+      "slug": "dummy-dev-tool-419-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 420",
+      "slug": "dummy-dev-tool-420-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 421",
+      "slug": "dummy-dev-tool-421-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 422",
+      "slug": "dummy-dev-tool-422-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 423",
+      "slug": "dummy-dev-tool-423-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 424",
+      "slug": "dummy-dev-tool-424-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 425",
+      "slug": "dummy-dev-tool-425-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 426",
+      "slug": "dummy-dev-tool-426-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 427",
+      "slug": "dummy-dev-tool-427-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 428",
+      "slug": "dummy-dev-tool-428-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 429",
+      "slug": "dummy-dev-tool-429-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 430",
+      "slug": "dummy-dev-tool-430-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 431",
+      "slug": "dummy-dev-tool-431-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 432",
+      "slug": "dummy-dev-tool-432-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 433",
+      "slug": "dummy-dev-tool-433-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 434",
+      "slug": "dummy-dev-tool-434-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 435",
+      "slug": "dummy-dev-tool-435-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 436",
+      "slug": "dummy-dev-tool-436-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 437",
+      "slug": "dummy-dev-tool-437-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 438",
+      "slug": "dummy-dev-tool-438-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 439",
+      "slug": "dummy-dev-tool-439-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 440",
+      "slug": "dummy-dev-tool-440-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 441",
+      "slug": "dummy-dev-tool-441-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 442",
+      "slug": "dummy-dev-tool-442-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 443",
+      "slug": "dummy-dev-tool-443-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 444",
+      "slug": "dummy-dev-tool-444-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 445",
+      "slug": "dummy-dev-tool-445-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 446",
+      "slug": "dummy-dev-tool-446-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 447",
+      "slug": "dummy-dev-tool-447-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 448",
+      "slug": "dummy-dev-tool-448-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    },
+    {
+      "name": "Dummy Dev Tool 449",
+      "slug": "dummy-dev-tool-449-dummy",
+      "descriptor": "A dummy tool",
+      "attributes": ["dummy"]
+    }
+  ]
+}
