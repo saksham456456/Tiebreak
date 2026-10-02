@@ -1,11 +1,8 @@
-import { createClient } from '@supabase/supabase-js';
+import { createClient } from '@/lib/supabase/server';
 import { SubmitForm } from '@/components/submit/SubmitForm';
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'http://localhost:8000';
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || 'anon';
-const supabase = createClient(supabaseUrl, supabaseKey);
-
 export default async function SubmitPage() {
+  const supabase = await createClient();
   const { data: categories } = await supabase.from('categories').select('id, name').order('name');
 
   return (

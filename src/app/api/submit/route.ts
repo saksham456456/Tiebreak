@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
-import { createClient } from '@supabase/supabase-js';
+import { getServiceClient } from '@/lib/supabase/admin';
 import { getAnonId } from '@/lib/auth/anon';
 import { limits } from '@/lib/abuse/limits';
 
@@ -10,9 +10,7 @@ const SubmitSchema = z.object({
   categoryId: z.string().uuid(),
 });
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'http://localhost:8000';
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || 'anon';
-const supabase = createClient(supabaseUrl, supabaseKey);
+const supabase = getServiceClient();
 
 export async function POST(request: NextRequest) {
   try {

@@ -1,12 +1,10 @@
 import { createClient } from '@/lib/auth/supabase';
-import { createClient as createAdminClient } from '@supabase/supabase-js';
+import { getServiceClient } from '@/lib/supabase/admin';
 import { redirect } from 'next/navigation';
 import { revalidatePath } from 'next/cache';
 import { z } from 'zod';
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'http://localhost:8000';
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || 'anon';
-const adminSupabase = createAdminClient(supabaseUrl, supabaseKey);
+const adminSupabase = getServiceClient();
 
 async function requireAdmin() {
   const supabase = await createClient();

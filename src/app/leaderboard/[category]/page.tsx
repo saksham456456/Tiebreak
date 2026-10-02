@@ -1,17 +1,13 @@
 import { notFound } from 'next/navigation';
 import { LeaderboardClient } from '@/components/arena/LeaderboardClient';
-import { createClient } from '@supabase/supabase-js';
-
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'http://localhost:8000';
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || 'anon';
-
-const supabase = createClient(supabaseUrl, supabaseKey);
+import { createClient } from '@/lib/supabase/server';
 
 export default async function LeaderboardPage({
   params,
 }: {
   params: Promise<{ category: string }>;
 }) {
+  const supabase = await createClient();
   const { category } = await params;
 
   if (!category) return notFound();

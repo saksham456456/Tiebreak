@@ -1,13 +1,10 @@
 import { NextResponse } from 'next/server';
 import { redis } from '@/lib/redis/client';
 import { REDIS_KEYS } from '@/lib/redis/keys';
-import { createClient } from '@supabase/supabase-js';
+import { getServiceClient } from '@/lib/supabase/admin';
 import { calculateEloUpdate } from '@/lib/ranking/elo';
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL || 'http://localhost:8000',
-  process.env.SUPABASE_SERVICE_ROLE_KEY || 'anon'
-);
+const supabase = getServiceClient();
 
 export async function GET(request: Request) {
   const authHeader = request.headers.get('authorization');

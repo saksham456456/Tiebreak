@@ -3,6 +3,20 @@ import crypto from 'crypto';
 
 const COOKIE_NAME = 'tiebreak_anon_id';
 
+function getAnonSecret() {
+  if (!process.env.ANON_COOKIE_SECRET && process.env.NODE_ENV === 'production') {
+    throw new Error('ANON_COOKIE_SECRET must be set in production');
+  }
+  return process.env.ANON_COOKIE_SECRET || 'dev_secret_fallback_only';
+}
+
+function getHashSalt() {
+  if (!process.env.HASH_SALT && process.env.NODE_ENV === 'production') {
+    throw new Error('HASH_SALT must be set in production');
+  }
+  return process.env.HASH_SALT || 'salt';
+}
+
 function signValue(value: string, secret: string): string {
   const hmac = crypto.createHmac('sha256', secret);
   hmac.update(value);
@@ -27,7 +41,7 @@ function verifyValue(signedValue: string, secret: string): string | null {
 
 export async function getAnonId(): Promise<string | null> {
   const cookieStore = await cookies();
-  const secret = process.env.ANON_COOKIE_SECRET || 'dev_secret_fallback_only';
+  const secret = getAnonSecret();
 
   const cookie = cookieStore.get(COOKIE_NAME);
   if (!cookie) return null;
@@ -37,7 +51,7 @@ export async function getAnonId(): Promise<string | null> {
 
 export async function setAnonId(uuid: string): Promise<void> {
   const cookieStore = await cookies();
-  const secret = process.env.ANON_COOKIE_SECRET || 'dev_secret_fallback_only';
+  const secret = getAnonSecret();
 
   const signed = signValue(uuid, secret);
 
@@ -51,7 +65,7 @@ export async function setAnonId(uuid: string): Promise<void> {
 }
 
 export function hashIp(ip: string): string {
-  const salt = process.env.HASH_SALT || 'salt';
+  const salt = getHashSalt();
   return crypto
     .createHash('sha256')
     .update(ip + salt)

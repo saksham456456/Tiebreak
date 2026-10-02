@@ -1,15 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
-import { createClient } from '@supabase/supabase-js';
+import { getServiceClient } from '@/lib/supabase/admin';
 
 const CompareSchema = z.object({
   targetKey: z.string(), // e.g. "u:uuid" or "a:uuid"
   userKey: z.string(), // the signed in user
 });
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'http://localhost:8000';
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || 'anon';
-const supabase = createClient(supabaseUrl, supabaseKey);
+const supabase = getServiceClient();
 
 function computeCosineSimilarity(
   vecA: Record<string, number>,

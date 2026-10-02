@@ -1,13 +1,9 @@
 import { NextResponse } from 'next/server';
 import { redis } from '@/lib/redis/client';
-import { createClient } from '@supabase/supabase-js';
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL || 'http://localhost:8000',
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'anon'
-);
+import { createClient } from '@/lib/supabase/server';
 
 export async function GET() {
+  const supabase = await createClient();
   try {
     const [{ count: items }, { count: categories }, { count: totalVotes }] = await Promise.all([
       supabase.from('items').select('*', { count: 'exact', head: true }),

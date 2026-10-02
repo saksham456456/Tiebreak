@@ -1,16 +1,13 @@
-import { createClient } from '@supabase/supabase-js';
+import { createClient } from '@/lib/supabase/server';
 import Link from 'next/link';
 import { ChallengeButton } from '@/components/versus/ChallengeButton';
-
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'http://localhost:8000';
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || 'anon';
-const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default async function VersusPage({
   params,
 }: {
   params: Promise<{ lo: string; hi: string }>;
 }) {
+  const supabase = await createClient();
   const { lo, hi } = await params;
 
   const { data: items } = await supabase.from('items').select('*').in('slug', [lo, hi]);

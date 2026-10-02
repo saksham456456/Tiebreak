@@ -4,7 +4,7 @@ import { getAnonId, setAnonId } from '@/lib/auth/anon';
 import { limits } from '@/lib/abuse/limits';
 import { redis } from '@/lib/redis/client';
 import { REDIS_KEYS } from '@/lib/redis/keys';
-import { createClient } from '@supabase/supabase-js';
+import { createClient } from '@/lib/supabase/server';
 
 const PairQuerySchema = z.object({
   category: z.string(),
@@ -12,11 +12,8 @@ const PairQuerySchema = z.object({
   locale: z.string().default('en'),
 });
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'http://localhost:8000';
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || 'anon';
-const supabase = createClient(supabaseUrl, supabaseKey);
-
 export async function GET(request: NextRequest) {
+  const supabase = await createClient();
   try {
     const url = new URL(request.url);
     const parsed = PairQuerySchema.safeParse({
